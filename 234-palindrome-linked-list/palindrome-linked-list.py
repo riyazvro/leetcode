@@ -10,9 +10,9 @@ class Solution(object):
         :rtype: bool
         """
         slow,fast=head,head
-        prev=None
+        # prev=None
         while fast and fast.next:
-            prev=slow
+            # prev=slow
             slow=slow.next
             fast=fast.next.next
         cur=slow
